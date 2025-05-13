@@ -1,0 +1,46 @@
+
+
+### `.gitignore`
+
+```gitignore
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+/composer.lock
+
+# Node
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# WordPress Core & Boilerplate
+wp-content/plugins/mu-require.php
+wp-content/mu-plugins/wp-stash
+wp-content/themes
+wp-content/cache
+wp-content/uploads
+wp-admin
+wp-includes
+
+# Files
+wp-*.php
+xmlrpc.php
+local-xdebuginfo.php
+
+# Editor & IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+php_errorlog
+
+# PHPUnit
+.phpunit.result.cache
+
+# Avoid previous rules for
+!wp-content/plugins/wp-syde-rest-enhancer/wp-syde-rest-enhancer.php
